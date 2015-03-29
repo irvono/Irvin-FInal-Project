@@ -1,0 +1,42 @@
+﻿@model OnoWeb.Models.Video
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Video</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GenreID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GenreID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OnerID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OnerID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.VideoID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

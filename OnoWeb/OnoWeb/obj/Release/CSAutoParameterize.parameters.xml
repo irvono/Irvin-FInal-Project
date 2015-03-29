@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="OnoContext-Web.config Connection String" description="OnoContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDBFilename=|DataDirectory|\Ono9.mdf;Initial Catalog=Ono9;Integrated Security=SSPI;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Irvin\\Desktop\\All\ Desktop\ Items\\Winter\ 2015\\CS296N\\OnoWeb\\OnoWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OnoContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Irvin\\Desktop\\All\ Desktop\ Items\\Winter\ 2015\\CS296N\\OnoWeb\\OnoWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="OnoContext_DatabasePublish-Web.config Connection String" description="OnoContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="OnoContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Irvin\\Desktop\\All\ Desktop\ Items\\Winter\ 2015\\CS296N\\OnoWeb\\OnoWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OnoContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

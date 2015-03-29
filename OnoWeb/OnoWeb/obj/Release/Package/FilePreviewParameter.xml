@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="onoweb" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Irvin\\Desktop\\All\ Desktop\ Items\\Winter\ 2015\\CS296N\\OnoWeb\\OnoWeb\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Irvin\\Desktop\\All\ Desktop\ Items\\Winter\ 2015\\CS296N\\OnoWeb\\OnoWeb\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="OnoContext-Web.config Connection String" description="" value="Data Source=tcp:s5u8igbrog.database.windows.net,1433;Initial Catalog=OnoDB;User Id=irvono@s5u8igbrog;Password=Irvyirv133" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Irvin\\Desktop\\All\ Desktop\ Items\\Winter\ 2015\\CS296N\\OnoWeb\\OnoWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OnoContext']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." value="DefaultConnection_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Irvin\\Desktop\\All\ Desktop\ Items\\Winter\ 2015\\CS296N\\OnoWeb\\OnoWeb\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
